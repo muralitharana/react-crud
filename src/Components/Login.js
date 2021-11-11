@@ -153,7 +153,7 @@ const Login = () => {
           </Button>
         </Box>
         <div className="linkDiv">
-          <Link to="/Register" className="link">
+          <Link to="/react-crud/Register" className="link">
             Create Account
           </Link>
         </div>
