@@ -18,7 +18,7 @@ const RouterComp = () => {
         <div>
             <Router>
                 <Switch>
-                    <Route exact path="/" component={Login}/>
+                    <Route path="/" component={Login}/>
                     <Route exact path="/Register" component={Register}/>
                     <Route exact path="/Home" component={Home}/>
                     <Route exact path="/Todo" component={Todo}/> 
