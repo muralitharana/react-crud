@@ -1,6 +1,5 @@
 {
-  "homepage": "http://muralitharana.github.io/React-Project",
-  "name": "react-crud",
+  "homepage": "http://muralitharana.github.io/react-crud",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
