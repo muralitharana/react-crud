@@ -136,7 +136,7 @@ const Register = () => {
       console.log(userData);
       const user = JSON.stringify(userData);
       localStorage.setItem("userData", user);
-      history.push("./react-crud/");
+      history.push("./");
     }
   };
   return (
