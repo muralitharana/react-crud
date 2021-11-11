@@ -13,10 +13,10 @@ import FirstPage from './Body/FirstPage';
 function Header() {
      const history = useHistory();
     const logOut=()=>{
-        history.push("./react-crud/");
+        history.push("./");
     }
     const addTodo=()=>{
-      history.push("./react-crud/Todo")
+      history.push("./Todo")
     }
     return (
         <>
