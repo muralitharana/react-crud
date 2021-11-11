@@ -203,7 +203,7 @@ const Register = () => {
         </Box>
       </div>
       <div style={{marginTop:"40px"}}>
-        <Button onClick={()=>history.push("./react-crud/")}><ArrowBackOutlinedIcon/>Back To Login</Button>
+        <Button onClick={()=>history.push("./")}><ArrowBackOutlinedIcon/>Back To Login</Button>
       </div>
     </div>
   );
