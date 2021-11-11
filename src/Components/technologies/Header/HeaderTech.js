@@ -7,7 +7,7 @@ function HeaderTech(props) {
     const  history = useHistory();
     return (
         <div className="headerTech">
-            <Button style={{color:"white"}} onClick={()=>history.push("./Home")}><HomeOutlinedIcon/></Button>
+            <Button style={{color:"white"}} onClick={()=>history.push("./")}><HomeOutlinedIcon/></Button>
         </div>
     )
 }
