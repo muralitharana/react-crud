@@ -1,0 +1,54 @@
+.techContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.techItems {
+  width: 28%;
+  height: 200px;
+  margin: 20px;
+  border: 4px solid rgb(218, 213, 213);
+  border-radius: 5px;
+}
+.techItems:hover{
+    /* background-color: #1976d2; */
+    /* color: white; */
+    border: 4px solid #1976d2;
+    cursor: pointer;
+}
+
+@media(max-width:931px){
+    .techItems{
+    width: 40%;
+    margin-left: 4%;
+}
+}
+@media(max-width:490px){
+    .techItems{
+    width: 90%;
+    margin-left: 5%;
+}
+}
+
+.Image{
+    width: 100%;
+    height: 180px;
+}
+
+.techMainContainer{
+  width: 100%;
+}
+.mainImg{
+  width: 100%;
+}
+
+.listContainer{
+  width:80%;
+  margin: auto;
+}
+.unordered{
+  text-align:right;
+}
+.listItem{
+  background-color: aliceblue;
+}

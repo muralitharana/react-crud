@@ -1,0 +1,51 @@
+.todoForm {
+  width: 40%;
+  margin: auto;
+  border: 4px solid rgb(218, 213, 213);
+  border-radius: 10px;
+  padding: 10px;
+}
+table {
+  width: 80%;
+  margin: auto;
+  margin-top: 30px;
+  border-collapse: collapse;
+}
+th {
+  background-color: #1976d2;
+  color: white;
+}
+tr {
+  background-color: rgb(255, 251, 251);
+  height: 40px;
+  border-bottom: 0.5px solid rgb(223, 219, 219);
+}
+td,
+th {
+  text-align: left;
+  padding: 10px;
+}
+tr:hover {
+  background-color: rgb(212, 208, 208);
+}
+th:nth-child(1) {
+  border-top-left-radius: 10px;
+}
+th:nth-child(5) {
+  border-top-right-radius: 10px;
+  text-align: center;
+}
+td:nth-child(5) {
+  text-align: center;
+}
+@media(max-width:800px){
+  .todoForm {
+  width: 85%;
+  margin: auto;
+}
+table {
+  width: 95%;
+  overflow-x: auto;
+ }
+
+}

@@ -1,0 +1,32 @@
+.loginContainer{
+    width: 40%;
+    margin: auto;
+    border: 4px solid rgb(218, 213, 213);
+    border-radius: 10px;
+    padding: 10px;
+}
+.linkDiv{
+    margin: 10px;
+}
+.link{
+    text-decoration: none;
+}
+.link :visited{
+    color: red;
+}
+.link:hover{
+    color: rgb(0, 153, 255);
+}
+div.loginContainer:hover{
+    border: 4px solid #1976d2;
+}
+@media(max-width:800px){
+    .loginContainer{
+    width: 60%;
+}
+}
+@media(max-width:600px){
+    .loginContainer{
+    width: 90%;
+}
+}

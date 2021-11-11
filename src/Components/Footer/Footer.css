@@ -1,0 +1,22 @@
+.footerContainer{
+    background-color: rgb(200, 225, 241);
+    display: flex;
+    flex-wrap: wrap;
+}
+.footerItems{
+    width: 25%;
+    margin: 2%;
+    margin-left: 5%;
+    text-align: left;
+}
+
+@media(max-width:931px){
+   .footerItems{
+    width: 40%;
+} 
+}
+@media(max-width:490px){
+   .footerItems{
+    width: 90%;
+} 
+}
