@@ -37,7 +37,7 @@ function Sidebar() {
 
   const history = useHistory();
   const goToDevelopmentPage = (pageName) => {
-    history.push(`/${pageName}`);
+    history.push(`/react-crud/${pageName}`);
   };
 
   const list = (anchor) => (

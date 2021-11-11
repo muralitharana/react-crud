@@ -136,7 +136,7 @@ const Register = () => {
       console.log(userData);
       const user = JSON.stringify(userData);
       localStorage.setItem("userData", user);
-      history.push("./");
+      history.push("./react-crud/");
     }
   };
   return (
@@ -203,7 +203,7 @@ const Register = () => {
         </Box>
       </div>
       <div style={{marginTop:"40px"}}>
-        <Button onClick={()=>history.push("./")}><ArrowBackOutlinedIcon/>Back To Login</Button>
+        <Button onClick={()=>history.push("./react-crud/")}><ArrowBackOutlinedIcon/>Back To Login</Button>
       </div>
     </div>
   );

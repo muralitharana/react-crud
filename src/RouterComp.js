@@ -19,19 +19,19 @@ const RouterComp = () => {
             <Router>
                 <Switch>
                     <Route exact path="/react-crud/" component={Login}/>
-                    <Route exact path="/Register" component={Register}/>
-                    <Route exact path="/Home" component={Home}/>
-                    <Route exact path="/Todo" component={Todo}/> 
+                    <Route exact path="/react-crud/Register" component={Register}/>
+                    <Route exact path="/react-crud/Home" component={Home}/>
+                    <Route exact path="/react-crud/Todo" component={Todo}/> 
 
-                    <Route exact path="/Frontend" component={Frontend}/>
-                    <Route exact path="/Backend" component={Backend}/>
-                    <Route exact path="/Fullstack" component={Fullstack}/>
-                    <Route exact path="/Android" component={Android}/>
-                    <Route exact path="/IOS" component={IOS}/>
-                    <Route exact path="/Desktop" component={Desktop}/>
-                    <Route exact path="/Devops" component={Devops}/>
-                    <Route exact path="/Cloud" component={Cloud}/>
-                    <Route exact path="/Network" component={Network}/>
+                    <Route exact path="/react-crud/Frontend" component={Frontend}/>
+                    <Route exact path="/react-crud/Backend" component={Backend}/>
+                    <Route exact path="/react-crud/Fullstack" component={Fullstack}/>
+                    <Route exact path="/react-crud/Android" component={Android}/>
+                    <Route exact path="/react-crud/IOS" component={IOS}/>
+                    <Route exact path="/react-crud/Desktop" component={Desktop}/>
+                    <Route exact path="/react-crud/Devops" component={Devops}/>
+                    <Route exact path="/react-crud/Cloud" component={Cloud}/>
+                    <Route exact path="/react-crud/Network" component={Network}/>
                 </Switch>
             </Router>
         </div>

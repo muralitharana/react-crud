@@ -71,7 +71,7 @@ const Login = () => {
       userData.userName === user.userName &&
       userData.password === user.password
     ) {
-      history.push("./Home");
+      history.push("./react-crud/Home");
     } else if (userData.userName === "" && userData.password === "") {
       setErrMsg({
         ...errMsg,
