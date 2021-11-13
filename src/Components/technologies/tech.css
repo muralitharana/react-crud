@@ -52,3 +52,13 @@
 .listItem{
   background-color: aliceblue;
 }
+.listItem h3{
+  border: 2px solid rgb(211, 204, 204);
+  border-radius: 5px;
+  padding: 2px;
+}
+.listItem h3:hover{
+  color: white;
+  background-color: #1976d2;
+  text-align: center;
+}
